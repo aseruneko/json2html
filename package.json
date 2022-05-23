@@ -1,0 +1,27 @@
+{
+  "name": "json2html",
+  "version": "0.0.1",
+  "description": "This .js makes .json to HTML elements concisely and clearly. Also can customize output elements by adding attributes to .json.",
+  "main": "json2html.js",
+  "scripts": {
+    "build": "webpack",
+    "watch": "webpack -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aseruneko/json2html.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aseruneko/json2html/issues"
+  },
+  "homepage": "https://github.com/aseruneko/json2html#readme",
+  "devDependencies": {
+    "ts-loader": "^9.2.8",
+    "typescript": "^4.6.3",
+    "webpack": "^5.72.0",
+    "webpack-cli": "^4.9.2"
+  }
+}
