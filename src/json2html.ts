@@ -7,8 +7,9 @@ async function readJson() {
 }
 
 async function main() {
-    const json = readJson();
-    console.log(readJson);
+    readJson().then(json => {
+        console.log(json);
+    });
 }
 
 main()
